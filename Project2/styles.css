@@ -1,0 +1,75 @@
+/* Base styles for the body */
+body {
+    font-family: Arial, sans-serif;/* Set the font family for the entire document */
+    margin: 0;/* Remove default margin */
+    padding: 0;/* Remove default padding */
+    background-color:#ffccdd;/* Set a light pink background color for the entire document */
+}
+
+/* Header styles */
+header {
+    color: #fff;/* Set the text color to white to make the text pop */
+    padding: 20px;/* Add padding around the header to spread the text out */
+    text-align: center;/* Center the text in the header */
+}
+
+/*Table styles*/
+table {
+    width: 100%;/* Set the table to take full width of the container */
+    background: purple; /* Set a purple background color for the table */
+}
+td {
+    padding: 10px;/* Add padding inside table cells */
+}
+table a {
+    color: white;/* Set linked navigation color to white for visibility */
+    font-size: 1.5em;/* Increased font size for links to make them stand out more */
+    text-decoration: none;/* Remove underline from links */
+}
+
+ /* Navigation styles */  
+ 
+nav ul {
+    list-style: none; /* Remove bullet points from the list */
+
+}
+
+nav ul li {
+    display: inline;/* Display list items in a single line */
+    margin: 0 15px;/* Add horizontal margin between items */
+    padding: 10px; /*Add padding between the items to make the page look better*/
+}
+
+nav ul li a {
+    color: #fff;/* Set link color to white */
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;/* Add padding around the main content for visibility*/
+    text-align: center; /* Center the text in the main content area for visibility */
+    color: white; /* Set text color to white for visibility */
+    font-size: 25px; /* Set font size for the main content */
+}
+h2{
+    color: purple; /* Set color for all h2 headings to purple */
+}
+label{
+    color: black; /* Set label for form text color to black for contrast */
+}
+
+/* Footer styles */
+footer {
+    background: purple; /* Set a purple background color for the footer I wanted it to match the header*/
+    color: #fff; /* Set text color to white for visibility */
+    text-align: center; /* Center the text in the footer */
+    padding: 0 10px; /* Add padding above and below the footer content */
+}
+
+/* Footer links */
+footer a {
+    color: #fff; /* Set footer link color to white to match the header */
+    text-decoration: none; /* Remove underline from footer links */
+}

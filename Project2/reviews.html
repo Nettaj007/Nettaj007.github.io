@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ana's CupCakerie Reviews</title>
+    <meta name="author" content="Wanetta Clark-Johnson">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ana's CupCakerie Reviews </h1>
+        <nav>
+            <table>
+              <tr>
+                <td><a href="index.html">Home</a></td>
+                <td><a href="menu.html">Menu</a></td>
+                <td><a href="contactus.html">Contact Us</a></td>
+                <td><a href="reviews.html">Reviews</a></td>
+              </tr>
+            </table>
+        </nav>
+    </header>
+<main>
+    <h2>Add Review</h2>
+      <form action="#" method="post">   
+            <p>
+               <label for="name">Enter Your Name:</label>
+               <input type="text" id="name" name="name" required>
+            </p>
+            <p>
+               <label for="dessert">Type of Dessert</label>
+               <select id="dessert" name="dessert" required>
+                  <option value="">Select one...</option>
+                  <option>Custome Cake</option>
+                  <option>Cup Cakes</option>
+                  <option>Lemonade</option>
+                  <option>Truffles</option>
+               </select>
+            </p>
+            <p>
+               <label for="rating">Rating 1-5</label>
+               <input type="number" id="rating" name="rating" min="1" max="5"  value="0" required>
+            </p>
+            <p>
+               <label for="details">Comments:</label>
+               <textarea id="details" name="details" rows="5" cols="40" required></textarea>
+            </p>
+            <button>Submit</button>
+        </form>
+        <section class="feature">
+        <h2> Testimonies</h2>
+        <div class ="flex-contaner">
+            <div class ="feature-right">
+                <p><img src="images/5star.png" alt="rating" width="200">
+                Her cupcakes are delicous
+                by: Shabre Clark</p>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p> &copy;2024 Ana's CupCakerie</p>
+        <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a><br>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url"> Validate CSS </a>
+    </footer>
+</body>
+</html>
